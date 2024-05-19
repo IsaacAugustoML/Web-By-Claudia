@@ -154,3 +154,38 @@ body{
 .lista__link a:hover{
     color: green;
 }
+
+@media screen and (max-width: 768px){
+    .container{
+        display: block;
+        width: 50vw;
+        text-align: center;
+    }
+
+    .container__imagem{
+        width: 50vw;
+    }
+
+    .container__caixa{
+        margin: 2em 2em;
+    }
+
+    .secundario{
+        margin:0;
+        text-align: center;
+    }
+
+    .secundario__imagem{
+        width: 50vw;
+    }
+
+    .lista__link{
+        display: block;
+    }
+
+    .rodape__lista{
+        display: block;
+    }
+
+
+}
